@@ -16,13 +16,13 @@ class SolarSystem extends React.Component {
   }
 }
 
-// SolarSystem.propTypes = {
-//  Planets: propTypes.arrayOf(
-//     propTypes.shape({
-//       name: propTypes.string,
-//       image: propTypes.string,
-//     })
-//   ).isRequired
-// };
+SolarSystem.propTypes = {
+ Planets: propTypes.arrayOf(
+    propTypes.shape({
+      name: propTypes.string,
+      image: propTypes.string,
+    })
+  ).isRequired
+};
 
 export default SolarSystem;

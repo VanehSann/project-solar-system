@@ -1,12 +1,14 @@
 import React from 'react';
 import propTypes from 'prop-types';
-
+import data from 'src/data/planets.js';
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage } = this.props;
+    const { planetName, planetImage } = this.props.map((item) => {
+
+    });
     return (
-      <div data-testid="planet-card">
-        <p data-testid="planet-name">{ planetName }</p>
+      <div>
+        <p data-testid="planet-card">{ planetName }</p>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
       </div>
     );

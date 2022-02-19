@@ -3,7 +3,6 @@ import Title from './Title';
 import propTypes from 'prop-types';
 import Planets from '../data/planets';
 import PlanetCard from './PlanetCard';
-import PlanetList from './PlanetList';
 
 // console.log(Planets)
 class SolarSystem extends React.Component {
@@ -11,18 +10,19 @@ class SolarSystem extends React.Component {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        <PlanetList />
+      { Planets.map((item) => { <PlanetCard key={item.name} planetImage={item.image} planetName={item.name} />
+  }) }
       </div>);
   }
 }
 
-// SolarSystem.propTypes = {
-//  Planets: propTypes.arrayOf(
-//     propTypes.shape({
-//       name: propTypes.string,
-//       image: propTypes.string,
-//     })
-//   ).isRequired
-// };
+SolarSystem.propTypes = {
+  Planets: propTypes.arrayOf(
+    propTypes.shape({
+      name: propTypes.string,
+      image: propTypes.string,
+    })
+  ).isRequired
+};
 
 export default SolarSystem;

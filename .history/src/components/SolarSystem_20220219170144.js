@@ -12,17 +12,19 @@ class SolarSystem extends React.Component {
       <div data-testid="solar-system">
         <Title headline="Planetas" />
         <PlanetList />
+        { Planets.map((item) => { <PlanetCard key={item.name} planetImage={item.image} planetName={item.name} />
+  }) }
       </div>);
   }
 }
 
-// SolarSystem.propTypes = {
-//  Planets: propTypes.arrayOf(
-//     propTypes.shape({
-//       name: propTypes.string,
-//       image: propTypes.string,
-//     })
-//   ).isRequired
-// };
+SolarSystem.propTypes = {
+ Planets: propTypes.arrayOf(
+    propTypes.shape({
+      name: propTypes.string,
+      image: propTypes.string,
+    })
+  ).isRequired
+};
 
 export default SolarSystem;
