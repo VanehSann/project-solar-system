@@ -13,7 +13,7 @@ class MissionList extends React.Component {
               name={ i.name }
               year={ i.year }
               country={ i.country }
-              destination={ i.destination }
+              destination={ i.destination }       
             />
           ))
         }
