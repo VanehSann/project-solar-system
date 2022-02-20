@@ -14,7 +14,7 @@ class PlanetList extends react.Component {
               planetName={ i.name }
               planetImage={ i.image }
             />
-          ))
+            ))
         }
       </div>
     );

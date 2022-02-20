@@ -7,14 +7,8 @@ class PlanetList extends react.Component {
   render() {
     return (
       <div>
-        {
-          Planets.map((i) => (
-            <PlanetCard
-              key={ i.name }
-              planetName={ i.name }
-              planetImage={ i.image }
-            />
-          ))
+        { 
+        Planets.map((item) => <PlanetCard key={ item.name } planetImage={ item.image } planetName={ item.name } />)
         }
       </div>
     );
