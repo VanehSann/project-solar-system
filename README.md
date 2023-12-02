@@ -125,7 +125,7 @@ Layout
  <table>  
  <tr><td> 
      WEBSITE
- </td><td><img src="./shop.gif" /></td></tr>
+ </td><td><img src="" /></td></tr>
  <tr><td> 
  MOBILE
  </td></tr> 
