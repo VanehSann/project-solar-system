@@ -56,41 +56,6 @@
 <br>
 <br>
 
-<blockquote>
-   <h2>Trabalhando atualmente</h2>
-  <p> Apesar do status do projeto está como concluido, há alguns pontos que pretendo melhorar na aplicação, que são: </p>
-   <table>
-  <tr>
-    <td>
-      <b>Metas</b>
-    </td>
-    <td>
-      <b>Urgência</b>
-    </td>
-  </tr>
-    <tr>
-    <td> Adicionar no Github Pages</td>
-    <td>🟢</td>
-  </tr>
-  <tr>
-    <td> Criar um CSS ( Web e Mobile ) </td>
-    <td>🟢</td>
-  </tr>
-     <tr>
-    <td> Criar testes unitários/integração</td>
-    <td>🟢</td>
-  </tr>
-     <tr>
-    <td>Add README and site English Version</td>
-    <td>🟢</td>
-  </tr>
-
-</table></blockquote>
-
-<br>
-<br>
-
-
 <div>
 
   <blockquote>
@@ -125,7 +90,7 @@ Layout
  <table>  
  <tr><td> 
      WEBSITE
- </td><td><img src="" /></td></tr>
+ </td><td><img src="https://github.com/VanehSann/project-solar-system/blob/main/Design%20sem%20nome.gif" /></td></tr>
  <tr><td> 
  MOBILE
  </td></tr> 
