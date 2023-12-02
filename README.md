@@ -91,9 +91,6 @@ Layout
  <tr><td> 
      WEBSITE
  </td><td><img src="https://github.com/VanehSann/project-solar-system/blob/main/Design%20sem%20nome.gif" /></td></tr>
- <tr><td> 
- MOBILE
- </td></tr> 
     </table>
       </blockquote>
   </div>
