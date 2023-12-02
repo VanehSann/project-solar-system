@@ -66,3 +66,36 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 1364px) {
+
+    h1 { font-size: 4em}
+
+    .planet-card {
+        /* border: 1px solid; */
+        border-radius: 20px;
+        height: 217px;
+        width: 300px;
+        text-align: center;
+        background: #0000004d;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;}
+ 
+        .mission-card {
+            border: 1px solid;
+            border-radius: 20px;
+            height: 217px;
+            width: 300px;
+            text-align: center;
+            background: #0000004d;
+            margin: 1%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+}
