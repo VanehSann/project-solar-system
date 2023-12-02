@@ -5,15 +5,15 @@ import missions from '../data/missions';
 class MissionList extends React.Component {
   render() {
     return (
-      <div>
+      <div className="cards-container">
         {
-          missions.map((i) => (
+          missions.map((mission) => (
             <MissionCard
-              key={ i.name }
-              name={ i.name }
-              year={ i.year }
-              country={ i.country }
-              destination={ i.destination }
+              key={ mission.name }
+              name={ mission.name }
+              year={ mission.year }
+              country={ mission.country }
+              destination={ mission.destination }
             />
           ))
         }
